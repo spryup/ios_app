@@ -8,5 +8,6 @@ target 'spry_sb' do
     pod 'SwiftyJSON'
     pod 'FoldingCell'
     pod 'LayoutKit'
+    pod 'SnapKit', '~> 4.0.0'
 
 end

@@ -60,6 +60,12 @@ class MainViewController :  UITabBarController{
         
         viewControllers = [settingsController,searchController,messageController]
         
+        guard let items = tabBar.items else {return}
+        
+        for item in items {
+            item.imageInsets = UIEdgeInsets.init(top: 4, left: 0, bottom: -4, right: 0)
+        }
+        
         
     }
 }
