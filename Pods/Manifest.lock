@@ -1,0 +1,24 @@
+PODS:
+  - FoldingCell (4.0.0)
+  - LayoutKit (10.0.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - FoldingCell
+  - LayoutKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FoldingCell
+    - LayoutKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  FoldingCell: 56aea84b6cf5badd8753efef33738936789f8fbd
+  LayoutKit: b6ddc9229bb94c7de07cf7d2f4be35458452ebac
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 5b81e1a204c2f8217dc542633d202fd4f22edb96
+
+COCOAPODS: 1.5.3

@@ -14,9 +14,11 @@
 		50D2775821BD770500BEF86E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775721BD770500BEF86E /* Constants.swift */; };
 		50D2775A21BE041700BEF86E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775921BE041700BEF86E /* Extensions.swift */; };
 		50D2775C21BE158B00BEF86E /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775B21BE158B00BEF86E /* searchViewController.swift */; };
+		8BED758CAAD0C629B0CB2FB4 /* Pods_spry_sb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5493255F3FBDE6AE17E6C /* Pods_spry_sb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AD3ADF75456B041DDC4CEE1 /* Pods-spry_sb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spry_sb.release.xcconfig"; path = "Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb.release.xcconfig"; sourceTree = "<group>"; };
 		50D2770E21BCD33000BEF86E /* spry_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spry_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D2771121BCD33000BEF86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D2771321BCD33000BEF86E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		50D2775721BD770500BEF86E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50D2775921BE041700BEF86E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		50D2775B21BE158B00BEF86E /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		B657012F2263088967F649C7 /* Pods-spry_sb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spry_sb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F5493255F3FBDE6AE17E6C /* Pods_spry_sb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spry_sb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BED758CAAD0C629B0CB2FB4 /* Pods_spry_sb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A28FE705C9AB79D904E3EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F5493255F3FBDE6AE17E6C /* Pods_spry_sb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50D2770521BCD33000BEF86E = {
 			isa = PBXGroup;
 			children = (
 				50D2771021BCD33000BEF86E /* spry_sb */,
 				50D2770F21BCD33000BEF86E /* Products */,
+				9F9FADA98E761498E1E48B98 /* Pods */,
+				13A28FE705C9AB79D904E3EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +93,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		9F9FADA98E761498E1E48B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B657012F2263088967F649C7 /* Pods-spry_sb.debug.xcconfig */,
+				3AD3ADF75456B041DDC4CEE1 /* Pods-spry_sb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D2772021BCD33200BEF86E /* Build configuration list for PBXNativeTarget "spry_sb" */;
 			buildPhases = (
+				2126FEB38DEED7C4ADC2DB86 /* [CP] Check Pods Manifest.lock */,
 				50D2770A21BCD33000BEF86E /* Sources */,
 				50D2770B21BCD33000BEF86E /* Frameworks */,
 				50D2770C21BCD33000BEF86E /* Resources */,
+				CE9A297A4C207617208033DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,6 +168,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2126FEB38DEED7C4ADC2DB86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spry_sb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9A297A4C207617208033DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50D2770A21BCD33000BEF86E /* Sources */ = {
@@ -288,6 +365,7 @@
 		};
 		50D2772121BCD33200BEF86E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B657012F2263088967F649C7 /* Pods-spry_sb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +384,7 @@
 		};
 		50D2772221BCD33200BEF86E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD3ADF75456B041DDC4CEE1 /* Pods-spry_sb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
