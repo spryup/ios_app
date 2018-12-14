@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let controller = UINavigationController(rootViewController: loginController)
         window?.rootViewController = controller
         
+    
+        
         return true
     }
 

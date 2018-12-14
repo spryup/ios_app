@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505787C421C3677A00BA9B7D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C321C3677A00BA9B7D /* MessageViewController.swift */; };
+		505787C621C367A200BA9B7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C521C367A200BA9B7D /* SettingsViewController.swift */; };
+		505787C821C37C7500BA9B7D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C721C37C7500BA9B7D /* MapViewController.swift */; };
 		50D2771221BCD33000BEF86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771121BCD33000BEF86E /* AppDelegate.swift */; };
 		50D2771421BCD33000BEF86E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771321BCD33000BEF86E /* LoginController.swift */; };
 		50D2771921BCD33200BEF86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D2771821BCD33200BEF86E /* Assets.xcassets */; };
 		50D2771C21BCD33200BEF86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D2771A21BCD33200BEF86E /* LaunchScreen.storyboard */; };
 		50D2775821BD770500BEF86E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775721BD770500BEF86E /* Constants.swift */; };
 		50D2775A21BE041700BEF86E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775921BE041700BEF86E /* Extensions.swift */; };
-		50D2775C21BE158B00BEF86E /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775B21BE158B00BEF86E /* searchViewController.swift */; };
+		50D2775C21BE158B00BEF86E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2775B21BE158B00BEF86E /* MainViewController.swift */; };
 		8BED758CAAD0C629B0CB2FB4 /* Pods_spry_sb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5493255F3FBDE6AE17E6C /* Pods_spry_sb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AD3ADF75456B041DDC4CEE1 /* Pods-spry_sb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spry_sb.release.xcconfig"; path = "Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb.release.xcconfig"; sourceTree = "<group>"; };
+		505787C321C3677A00BA9B7D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		505787C521C367A200BA9B7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		505787C721C37C7500BA9B7D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		50D2770E21BCD33000BEF86E /* spry_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spry_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D2771121BCD33000BEF86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D2771321BCD33000BEF86E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -27,7 +33,7 @@
 		50D2771D21BCD33200BEF86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D2775721BD770500BEF86E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50D2775921BE041700BEF86E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		50D2775B21BE158B00BEF86E /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		50D2775B21BE158B00BEF86E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B657012F2263088967F649C7 /* Pods-spry_sb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spry_sb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb.debug.xcconfig"; sourceTree = "<group>"; };
 		E0F5493255F3FBDE6AE17E6C /* Pods_spry_sb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spry_sb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,11 +81,14 @@
 			children = (
 				50D2775621BD76E700BEF86E /* Utils */,
 				50D2771121BCD33000BEF86E /* AppDelegate.swift */,
+				505787C321C3677A00BA9B7D /* MessageViewController.swift */,
 				50D2771321BCD33000BEF86E /* LoginController.swift */,
 				50D2771821BCD33200BEF86E /* Assets.xcassets */,
 				50D2771A21BCD33200BEF86E /* LaunchScreen.storyboard */,
 				50D2771D21BCD33200BEF86E /* Info.plist */,
-				50D2775B21BE158B00BEF86E /* searchViewController.swift */,
+				50D2775B21BE158B00BEF86E /* MainViewController.swift */,
+				505787C521C367A200BA9B7D /* SettingsViewController.swift */,
+				505787C721C37C7500BA9B7D /* MapViewController.swift */,
 			);
 			path = spry_sb;
 			sourceTree = "<group>";
@@ -226,10 +235,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D2771421BCD33000BEF86E /* LoginController.swift in Sources */,
-				50D2775C21BE158B00BEF86E /* searchViewController.swift in Sources */,
+				50D2775C21BE158B00BEF86E /* MainViewController.swift in Sources */,
+				505787C621C367A200BA9B7D /* SettingsViewController.swift in Sources */,
 				50D2771221BCD33000BEF86E /* AppDelegate.swift in Sources */,
 				50D2775821BD770500BEF86E /* Constants.swift in Sources */,
+				505787C421C3677A00BA9B7D /* MessageViewController.swift in Sources */,
 				50D2775A21BE041700BEF86E /* Extensions.swift in Sources */,
+				505787C821C37C7500BA9B7D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

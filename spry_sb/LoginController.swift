@@ -76,7 +76,7 @@ class LoginController: UIViewController {
     }
     
     @objc func signInAction() {
-        let searchController = SearchViewController()
+        let searchController = MainViewController()
         navigationController?.pushViewController(searchController, animated: true)
     }
 
