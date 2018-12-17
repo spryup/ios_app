@@ -46,4 +46,12 @@ extension UIView {
         if width > 0 {self.widthAnchor.constraint(equalToConstant: width).isActive = true}
         
     }
+    
+    func pinEdges(to view: UIView) {
+        self.translatesAutoresizingMaskIntoConstraints = false
+        self.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        self.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        self.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+    }
 }

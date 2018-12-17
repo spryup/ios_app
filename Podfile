@@ -9,5 +9,6 @@ target 'spry_sb' do
     pod 'FoldingCell'
     pod 'LayoutKit'
     pod 'SnapKit', '~> 4.0.0'
+    pod 'Toucan', '~> 1.0.0'
 
 end

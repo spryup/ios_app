@@ -10,6 +10,18 @@
 		505787C421C3677A00BA9B7D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C321C3677A00BA9B7D /* MessageViewController.swift */; };
 		505787C621C367A200BA9B7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C521C367A200BA9B7D /* SettingsViewController.swift */; };
 		505787C821C37C7500BA9B7D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787C721C37C7500BA9B7D /* MapViewController.swift */; };
+		505787D621C7156D00BA9B7D /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CA21C7156C00BA9B7D /* SourceSansPro-Black.otf */; };
+		505787D721C7156D00BA9B7D /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CB21C7156C00BA9B7D /* SourceSansPro-Bold.otf */; };
+		505787D821C7156D00BA9B7D /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CC21C7156C00BA9B7D /* SourceSansPro-ExtraLight.otf */; };
+		505787D921C7156D00BA9B7D /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CD21C7156C00BA9B7D /* SourceSansPro-Regular.otf */; };
+		505787DA21C7156D00BA9B7D /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CE21C7156C00BA9B7D /* SourceSansPro-BoldIt.otf */; };
+		505787DB21C7156D00BA9B7D /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787CF21C7156C00BA9B7D /* SourceSansPro-BlackIt.otf */; };
+		505787DC21C7156D00BA9B7D /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D021C7156C00BA9B7D /* SourceSansPro-It.otf */; };
+		505787DD21C7156D00BA9B7D /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D121C7156C00BA9B7D /* SourceSansPro-SemiboldIt.otf */; };
+		505787DE21C7156D00BA9B7D /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D221C7156C00BA9B7D /* SourceSansPro-ExtraLightIt.otf */; };
+		505787DF21C7156D00BA9B7D /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D321C7156D00BA9B7D /* SourceSansPro-LightIt.otf */; };
+		505787E021C7156D00BA9B7D /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D421C7156D00BA9B7D /* SourceSansPro-Light.otf */; };
+		505787E121C7156D00BA9B7D /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D521C7156D00BA9B7D /* SourceSansPro-Semibold.otf */; };
 		50D2771221BCD33000BEF86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771121BCD33000BEF86E /* AppDelegate.swift */; };
 		50D2771421BCD33000BEF86E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771321BCD33000BEF86E /* LoginController.swift */; };
 		50D2771921BCD33200BEF86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D2771821BCD33200BEF86E /* Assets.xcassets */; };
@@ -25,6 +37,18 @@
 		505787C321C3677A00BA9B7D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		505787C521C367A200BA9B7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		505787C721C37C7500BA9B7D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		505787CA21C7156C00BA9B7D /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		505787CB21C7156C00BA9B7D /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		505787CC21C7156C00BA9B7D /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		505787CD21C7156C00BA9B7D /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		505787CE21C7156C00BA9B7D /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		505787CF21C7156C00BA9B7D /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		505787D021C7156C00BA9B7D /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		505787D121C7156C00BA9B7D /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		505787D221C7156C00BA9B7D /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		505787D321C7156D00BA9B7D /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		505787D421C7156D00BA9B7D /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		505787D521C7156D00BA9B7D /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
 		50D2770E21BCD33000BEF86E /* spry_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spry_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D2771121BCD33000BEF86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D2771321BCD33000BEF86E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -58,6 +82,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		505787C921C7154300BA9B7D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				505787CA21C7156C00BA9B7D /* SourceSansPro-Black.otf */,
+				505787CF21C7156C00BA9B7D /* SourceSansPro-BlackIt.otf */,
+				505787CB21C7156C00BA9B7D /* SourceSansPro-Bold.otf */,
+				505787CE21C7156C00BA9B7D /* SourceSansPro-BoldIt.otf */,
+				505787CC21C7156C00BA9B7D /* SourceSansPro-ExtraLight.otf */,
+				505787D221C7156C00BA9B7D /* SourceSansPro-ExtraLightIt.otf */,
+				505787D021C7156C00BA9B7D /* SourceSansPro-It.otf */,
+				505787D421C7156D00BA9B7D /* SourceSansPro-Light.otf */,
+				505787D321C7156D00BA9B7D /* SourceSansPro-LightIt.otf */,
+				505787CD21C7156C00BA9B7D /* SourceSansPro-Regular.otf */,
+				505787D521C7156D00BA9B7D /* SourceSansPro-Semibold.otf */,
+				505787D121C7156C00BA9B7D /* SourceSansPro-SemiboldIt.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		50D2770521BCD33000BEF86E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +122,7 @@
 		50D2771021BCD33000BEF86E /* spry_sb */ = {
 			isa = PBXGroup;
 			children = (
+				505787C921C7154300BA9B7D /* fonts */,
 				50D2775621BD76E700BEF86E /* Utils */,
 				50D2771121BCD33000BEF86E /* AppDelegate.swift */,
 				505787C321C3677A00BA9B7D /* MessageViewController.swift */,
@@ -171,8 +215,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505787E121C7156D00BA9B7D /* SourceSansPro-Semibold.otf in Resources */,
+				505787D821C7156D00BA9B7D /* SourceSansPro-ExtraLight.otf in Resources */,
+				505787DC21C7156D00BA9B7D /* SourceSansPro-It.otf in Resources */,
 				50D2771C21BCD33200BEF86E /* LaunchScreen.storyboard in Resources */,
+				505787DA21C7156D00BA9B7D /* SourceSansPro-BoldIt.otf in Resources */,
+				505787E021C7156D00BA9B7D /* SourceSansPro-Light.otf in Resources */,
+				505787D921C7156D00BA9B7D /* SourceSansPro-Regular.otf in Resources */,
+				505787D621C7156D00BA9B7D /* SourceSansPro-Black.otf in Resources */,
+				505787D721C7156D00BA9B7D /* SourceSansPro-Bold.otf in Resources */,
+				505787DB21C7156D00BA9B7D /* SourceSansPro-BlackIt.otf in Resources */,
 				50D2771921BCD33200BEF86E /* Assets.xcassets in Resources */,
+				505787DF21C7156D00BA9B7D /* SourceSansPro-LightIt.otf in Resources */,
+				505787DD21C7156D00BA9B7D /* SourceSansPro-SemiboldIt.otf in Resources */,
+				505787DE21C7156D00BA9B7D /* SourceSansPro-ExtraLightIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +270,7 @@
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -223,6 +280,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
