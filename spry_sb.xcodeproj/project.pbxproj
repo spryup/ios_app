@@ -22,6 +22,7 @@
 		505787DF21C7156D00BA9B7D /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D321C7156D00BA9B7D /* SourceSansPro-LightIt.otf */; };
 		505787E021C7156D00BA9B7D /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D421C7156D00BA9B7D /* SourceSansPro-Light.otf */; };
 		505787E121C7156D00BA9B7D /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 505787D521C7156D00BA9B7D /* SourceSansPro-Semibold.otf */; };
+		505787E321C75CBD00BA9B7D /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505787E221C75CBD00BA9B7D /* ProfileEditViewController.swift */; };
 		50D2771221BCD33000BEF86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771121BCD33000BEF86E /* AppDelegate.swift */; };
 		50D2771421BCD33000BEF86E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2771321BCD33000BEF86E /* LoginController.swift */; };
 		50D2771921BCD33200BEF86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D2771821BCD33200BEF86E /* Assets.xcassets */; };
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3AD3ADF75456B041DDC4CEE1 /* Pods-spry_sb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spry_sb.release.xcconfig"; path = "Pods/Target Support Files/Pods-spry_sb/Pods-spry_sb.release.xcconfig"; sourceTree = "<group>"; };
 		505787C321C3677A00BA9B7D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		505787C521C367A200BA9B7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		505787C521C367A200BA9B7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		505787C721C37C7500BA9B7D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		505787CA21C7156C00BA9B7D /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
 		505787CB21C7156C00BA9B7D /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		505787D321C7156D00BA9B7D /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
 		505787D421C7156D00BA9B7D /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
 		505787D521C7156D00BA9B7D /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		505787E221C75CBD00BA9B7D /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 		50D2770E21BCD33000BEF86E /* spry_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spry_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D2771121BCD33000BEF86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D2771321BCD33000BEF86E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				50D2775B21BE158B00BEF86E /* MainViewController.swift */,
 				505787C521C367A200BA9B7D /* SettingsViewController.swift */,
 				505787C721C37C7500BA9B7D /* MapViewController.swift */,
+				505787E221C75CBD00BA9B7D /* ProfileEditViewController.swift */,
 			);
 			path = spry_sb;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D2771421BCD33000BEF86E /* LoginController.swift in Sources */,
+				505787E321C75CBD00BA9B7D /* ProfileEditViewController.swift in Sources */,
 				50D2775C21BE158B00BEF86E /* MainViewController.swift in Sources */,
 				505787C621C367A200BA9B7D /* SettingsViewController.swift in Sources */,
 				50D2771221BCD33000BEF86E /* AppDelegate.swift in Sources */,

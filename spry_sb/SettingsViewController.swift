@@ -29,6 +29,7 @@ class SettingsViewController: UIViewController {
         view.layer.borderWidth = 2
         view.clipsToBounds = true
         view.layer.cornerRadius = 100
+        view.addTarget(self, action: #selector(profileAction), for: .touchUpInside)
         return view
     }()
     
@@ -60,7 +61,7 @@ class SettingsViewController: UIViewController {
     let preferencesButton : UIButton = {
         let loginButton = UIButton(type: UIButton.ButtonType.system) as UIButton
         loginButton.setTitleColor(.white, for: .normal)
-        loginButton.setTitle("Preferenced", for: .normal)
+        loginButton.setTitle("Preferences", for: .normal)
         loginButton.layer.cornerRadius = 25
         loginButton.backgroundColor = UIColor(red:0.94, green:0.59, blue:0.10, alpha:1.0)
         return loginButton
@@ -92,6 +93,11 @@ class SettingsViewController: UIViewController {
         stackView.spacing = 15
         return stackView
     }()
+    
+    @objc func profileAction() {
+        let profileController = ProfileEditViewController()
+        navigationController?.pushViewController(profileController, animated: true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -144,6 +150,7 @@ class SettingsViewController: UIViewController {
             make.height.equalTo(180)
             make.centerX.equalTo(self.mainView.snp.centerX)
             make.topMargin.equalTo(300)
+
         }
 
 
