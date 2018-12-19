@@ -46,7 +46,7 @@ class MainViewController :  UITabBarController{
     }
     
     func setUptabBar(){
-        let messageController = UINavigationController(rootViewController: MessageViewController())
+        let messageController = UINavigationController(rootViewController: MessageViewController(collectionViewLayout: UICollectionViewFlowLayout()))
         messageController.tabBarItem.image = UIImage(named: "messages_Icon_gray")
         messageController.tabBarItem.selectedImage = UIImage(named: "messages_icon_color")
         
